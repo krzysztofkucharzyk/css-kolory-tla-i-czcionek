@@ -1,0 +1,43 @@
+body {
+    background-color: #fead5f;
+}
+
+h1 {
+    background-color: #ff00dd;
+}
+
+h2 {
+    background-color: #00ff30;
+}
+
+p.jeden {
+    background-color: #fa394a;
+}
+
+p.dwa {
+    background-color: #00975a;
+}
+
+ol {
+    background-color: #f8f8f8;
+}
+
+ol > li:first-child{
+    color: #00975a;
+}
+
+ol > li:nth-child(2){
+    color: #fa394a;
+}
+
+ol > li:nth-child(3){
+    color: #00ff30;
+}
+
+ol > li:nth-child(4){
+    color: #000888;
+}
+
+ol > li:last-child{
+    color: #ff00dd;
+}
